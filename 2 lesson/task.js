@@ -11,3 +11,7 @@ const oneNumber = 100000000
 const twoNumber = 946200
 const difference = oneNumber - twoNumber
 console.log (difference)
+const nameOne = "Irina"
+const nameTwo ="Kryklyva"
+const sumName = nameOne + nameTwo
+console.log (sumName)
