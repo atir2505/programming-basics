@@ -6,7 +6,8 @@ const firstName = "Oleg"
 const secondName = "Zavrotskyi"
 const sum2 = firstName + secondName
 console.log (sum2)
-const numberOne = 2004
-const numberTwo = "Leonid"
-const sum3 = numberOne + numberTwo
-console.log (sum3)
+
+const oneNumber = 100000000
+const twoNumber = 946200
+const difference = oneNumber - twoNumber
+console.log (difference)
