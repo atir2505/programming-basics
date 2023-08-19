@@ -22,7 +22,7 @@ console.log(sum)
 const x = 32
 const y = 0.45
 const z = -8
-const operation1 = (x + y) / z
+//const operation1 = (x + y) / z
 const operation2 = 2 * z / (x + y)
 const operation3 = 100 - ((x + y) / (y + z) * (x + z) / ( x +y )) 
 const operation4 = x**y
@@ -34,4 +34,9 @@ const age = 2023
 const diefference = age - birthYear
 const data = myName + " " + surname + " " + diefference
 console.log(data)
+function operation1 (x, y, z){
+    return (x + y) / z
+}
+const result = operation1(8, 2, 5)
+console.log(result)
 
