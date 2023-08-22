@@ -47,6 +47,18 @@ function animalSays (animal){
 animalSays ("cat")
 animalSays ("dog")
 animalSays ("tiger")
+function carSound (car){
+    if (car === "Mercedes"){
+        console.log ("rrrr")
+    } else if (car === "BMW") {
+        console.log ("rar")
+    }else{
+        console.log ("phph")
+    }
+}
+carSound ("Mercedes")
+carSound ("BMW")
+carSound ("VW")
 
 
 
